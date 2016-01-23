@@ -29,6 +29,7 @@
   "homepage": "https://github.com/w0rd-driven/hexo-tag-googleform#readme",
   "devDependencies": {
     "chai": "^3.4.1",
+    "cheerio": "^0.19.0",
     "eslint": "^1.10.3",
     "eslint-config-hexo": "^1.0.2",
     "hexo": "^3.1.1",
