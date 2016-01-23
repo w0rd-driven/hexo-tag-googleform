@@ -2,4 +2,4 @@
 
 'use strict';
 
-hexo.extend.tag.register('googleform', require('./lib/tag'), { async: false });
+hexo.extend.tag.register('googleform', require('./lib/tag'), { async: true });
