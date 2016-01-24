@@ -10,7 +10,7 @@ $(document).ready(function () {
   $('.google-form-wrapper form')
     .find('.ss-item-required input, .ss-item-required textarea')
     .filter(function () {
-      return jQuery(this).attr('name').match(/entry\.\d\.single/);
+      return $(this).attr('name').match(/entry\.\d\.single/);
     })
     .addClass('required');
 
@@ -25,6 +25,7 @@ $(document).ready(function () {
             });
           }
         },
+
         error: function (data) {
           console.error(data);
         }
