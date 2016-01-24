@@ -1,0 +1,41 @@
+.google-form-wrapper .error {
+  color: red;
+  font-size: 12px;
+  /*float: left*/
+}
+.google-form-wrapper .errorbox-good {
+  margin-bottom: 20px;
+  clear: both
+}
+.google-form-wrapper .success-msg {
+  display: none
+}
+.google-form-wrapper .ss-form-entry label {
+  display: inline
+}
+.google-form-wrapper .ss-form-entry .ss-required-asterisk {
+  font-weight: bold
+}
+.google-form-wrapper .ss-form-entry input {
+  display: block;
+  padding: 5px;
+  width: 350px;
+  font: inherit
+}
+.google-form-wrapper .ss-form-entry textarea {
+  width: 500px;
+  padding: 5px;
+  font: inherit
+}
+.google-form-wrapper .ss-form-entry .ss-secondary-text {
+  color: red;
+  font-size: small
+}
+.google-form-wrapper .ss-navigate input {
+  width: auto;
+  cursor: pointer;
+  clear: both
+}
+.google-form-wrapper .required-message {
+  display: none
+}
