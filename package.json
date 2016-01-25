@@ -1,9 +1,11 @@
 {
   "name": "hexo-tag-googleform",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Google Form tag plugin for Hexo",
   "main": "index",
   "directories": {
+    "dist": "dist",
+    "lib": "lib",
     "test": "test"
   },
   "scripts": {
