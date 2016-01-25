@@ -2,6 +2,11 @@
 
 [Hexo](http://hexo.io) tag plugin to embed Google Forms.
 
+Inspired by [https://github.com/arshad/Google-Form-Octopress](https://github.com/arshad/Google-Form-Octopress)
+
+Note: This works with the current iteration of Google Forms. [This article](https://support.google.com/docs/answer/6281888?hl=en)
+explains how to switch back via the `Opt out of the new Forms` section. I would like to support both versions at some point.
+
 ## Installation
 
 Run the following command in the root directory of hexo:
