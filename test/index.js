@@ -37,7 +37,7 @@ describe('hexo-tag-googleform', function() {
   });
 
   it('error', function() {
-    var expected = 'Error fetching form, expected syntax: {% google-form formkey [message] %}';
+    var expected = 'Error fetching form, expected syntax: {% googleform formkey [message] %}';
     return getTag(['dGVfY3MwcklDcjVrZERGYlRoZWdJQnc6MQ']).then(function(result) {
       result.should.equal(expected);
     });

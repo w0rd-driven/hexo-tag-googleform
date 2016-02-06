@@ -32,8 +32,8 @@ Add the following to the footer (or wherever your preferred javascript declarati
 
 ## Usage
 
-    {% google-form formkey [message] %}
+    {% googleform formkey [message] %}
 
 Example :
 
-    {% google-form dGVfY3MwcklDcjVrZERGYlRoZWdJQnc6MQ Thank you. I'll get back to you shortly %}
+    {% googleform dGVfY3MwcklDcjVrZERGYlRoZWdJQnc6MQ Thank you. I'll get back to you shortly %}
